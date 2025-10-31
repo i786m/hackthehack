@@ -4,8 +4,6 @@ function calculateDivisors(num) {
   for(let i = num - 1 ; i>1 ; i--){
     if(i%3===0||i%5===0) divisorTotal += i
   }
-    
-  
   return num<3 
   ? 0 
   : divisorTotal
